@@ -1,7 +1,10 @@
-const MenuItems = ({ name, className }) => {
+const MenuItems = ({ name, className, id }) => {
+  const link = `#${id}`;
   return (
     <div className={className}>
-      <p>{name}</p>
+      <a href={link}>
+        <p>{name}</p>
+      </a>
     </div>
   );
 };
