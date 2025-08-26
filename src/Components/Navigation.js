@@ -2,15 +2,23 @@ import MenuItems from '../Data-display/MenuItems';
 import classNames from 'classnames';
 import ResizeContext from '../Hooks/use-resize-hook';
 import MinNavigation from './MinNav';
+import MenuBar from './MenuBar';
+import { useState } from 'react';
 
 const Navigation = () => {
+  const [menuBar, setMenuBar] = useState(false);
   const { width } = ResizeContext();
   const clss = classNames(
     'bg-gray-950 text-gray-100 border-b border-gray-800',
-    'sticky top-0 z-50'
+    'sticky top-0 z-10'
   );
   if (width < 800) {
-    return <MinNavigation className={clss} />;
+    return (
+      <>
+        {menuBar && <MenuBar setMenuBar={setMenuBar} menuBar={menuBar} />}
+        <MinNavigation className={clss} setMenuBar={setMenuBar} />
+      </>
+    );
   }
   return (
     <nav className={clss}>

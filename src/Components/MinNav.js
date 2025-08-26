@@ -1,6 +1,6 @@
 import { LuMenu } from 'react-icons/lu';
 import classNames from 'classnames';
-const MinNavigation = ({ className }) => {
+const MinNavigation = ({ className, setMenuBar }) => {
   const cls = classNames(
     className,
     'content-center h-[10vh] text-xl custom-shadow',
@@ -8,7 +8,13 @@ const MinNavigation = ({ className }) => {
   );
   return (
     <div className={cls}>
-      <div className="flex-[0.4]">
+      <div
+        className="flex-[0.4]"
+        onClick={(e) => {
+          setMenuBar((prev) => !prev);
+          e.stopPropagation();
+        }}
+      >
         <LuMenu className="m-[1.5rem]" />
       </div>
       <h1 className="flex-[1.6]">Welcome</h1>
