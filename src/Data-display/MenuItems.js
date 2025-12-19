@@ -1,8 +1,8 @@
-const MenuItems = ({ name, className, id }) => {
-  const link = `#${id}`;
+const MenuItems = ({ name, className, id, fullLink, download }) => {
+  const link = fullLink ? fullLink : `#${id}`;
   return (
     <div className={className}>
-      <a href={link}>
+      <a href={link} download={download ? true : false}>
         <p>{name}</p>
       </a>
     </div>

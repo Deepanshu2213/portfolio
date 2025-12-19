@@ -10,6 +10,7 @@ const MinNavigation = ({ className, setMenuBar }) => {
     <div className={cls}>
       <div
         className="flex-[0.4]"
+        data-testid="menuIcon"
         onClick={(e) => {
           setMenuBar((prev) => !prev);
           e.stopPropagation();

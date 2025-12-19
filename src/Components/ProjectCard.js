@@ -15,13 +15,15 @@ const ProjectCard = ({ data, className }) => {
   );
 };
 
-const LeftPanel = () => {
+const LeftPanel = ({ data }) => {
   return (
     <div className="justify-items-center flex-[1] w-full content-center">
       <img
-        className="object-fit"
-        src="/logo.png"
-        alt="something went wrong"
+        className="object-fit w-full h-full rounded-lg"
+        src={data.imgSrc}
+        alt="Product image"
+        loading="lazy"
+        role="test1"
       ></img>
     </div>
   );
@@ -42,4 +44,8 @@ const TechnologiesTag = ({ technologies }) => {
   return <div className="flex gap-3 flex-wrap m-3">{tech}</div>;
 };
 
-export default wrappedCmp(ProjectCard, true, 'rounded-xl custom-shadow');
+export default wrappedCmp(
+  ProjectCard,
+  false,
+  'rounded-xl custom-shadow bg-gray-900/80'
+);

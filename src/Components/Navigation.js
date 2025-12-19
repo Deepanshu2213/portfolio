@@ -1,13 +1,13 @@
 import MenuItems from '../Data-display/MenuItems';
 import classNames from 'classnames';
-import ResizeContext from '../Hooks/use-resize-hook';
+import useResizeContext from '../Hooks/use-resize-hook';
 import MinNavigation from './MinNav';
 import MenuBar from './MenuBar';
 import { useState } from 'react';
 
 const Navigation = () => {
   const [menuBar, setMenuBar] = useState(false);
-  const { width } = ResizeContext();
+  const { width } = useResizeContext();
   const clss = classNames(
     'bg-gray-950 text-gray-100 border-b border-gray-800',
     'sticky top-0 z-10'
@@ -34,7 +34,11 @@ const Navigation = () => {
           <MenuItems name="Experience" id="experience"></MenuItems>
           <MenuItems name="Projects" id="project"></MenuItems>
           <MenuItems name="Contact" id="contract"></MenuItems>
-          <MenuItems name="Download CV"></MenuItems>
+          <MenuItems
+            name="Download CV"
+            fullLink="/Deepanshu_resume.pdf"
+            download={true}
+          ></MenuItems>
         </div>
       </div>
     </nav>

@@ -1,0 +1,2248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`take snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="App min-h-screen text-gray-300"
+      >
+        <nav
+          class="bg-gray-950 text-gray-100 border-b border-gray-800 sticky top-0 z-10"
+        >
+          <div
+            class="flex min-h-[10vh] items-center"
+          >
+            <div
+              class="flex-[0.8] ml-[8%]"
+            >
+              <a
+                href="#intro"
+              >
+                <p>
+                  Welcome
+                </p>
+              </a>
+            </div>
+            <div
+              class="flex-[1.2] flex justify-evenly"
+            >
+              <div>
+                <a
+                  href="#about"
+                >
+                  <p>
+                    About
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#skills"
+                >
+                  <p>
+                    Skills
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#experience"
+                >
+                  <p>
+                    Experience
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#project"
+                >
+                  <p>
+                    Projects
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#contract"
+                >
+                  <p>
+                    Contact
+                  </p>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="#undefined"
+                >
+                  <p>
+                    Download CV
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+          id="intro"
+        >
+          <section>
+            <div
+              class="flex h-[90vh] items-center justify-between items-center justify-center"
+            >
+              <div
+                class="flex-[1.2] whitespace-normal flex flex-col gap-5 ml-[10%]"
+              >
+                <div>
+                  <h1
+                    class="text-[2rem] leading-none"
+                  >
+                    Hi I am 
+                    Deepanshu
+                    .
+                     
+                    <svg
+                      class="inline-block align-middle text-yellow-400"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M184.63,23.14a12,12,0,0,1,15-8A72.34,72.34,0,0,1,228.4,32a12,12,0,0,1-16.58,17.35,48.31,48.31,0,0,0-19.2-11.2A12,12,0,0,1,184.63,23.14ZM232.85,167.8A92,92,0,0,1,64.31,190l-40-69.32A32,32,0,0,1,36,77a31.72,31.72,0,0,1,7.54-3.14A32,32,0,0,1,88.65,32.45a32,32,0,0,1,53,3.55l14.53,25.17A32,32,0,0,1,206.35,68l17.31,30A91.38,91.38,0,0,1,232.85,167.8Zm-30-57.81L185.57,80a8,8,0,0,0-13.86,8h0l6.68,11.57a12,12,0,0,1-3.18,15.59,28,28,0,0,0-6.41,38.1,12,12,0,1,1-19.86,13.46,52.05,52.05,0,0,1,3.9-63.4L120.9,48A8,8,0,0,0,107,56l24.25,42a12,12,0,1,1-20.78,12L79.33,56a8,8,0,0,0-13.85,8L99,122a12,12,0,0,1-20.78,12L58.93,100.67a8,8,0,1,0-13.85,8L85.1,178a68,68,0,0,0,117.78-68ZM50.46,198a12,12,0,1,0-20.78,12,132.79,132.79,0,0,0,20,26.38,12,12,0,1,0,17.17-16.76A109.2,109.2,0,0,1,50.46,198Z"
+                      />
+                    </svg>
+                  </h1>
+                  <br />
+                  <p>
+                    I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.
+                  </p>
+                </div>
+                <div
+                  class="flex gap-2 items-center"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="Location_On"
+                    >
+                      <g>
+                        <path
+                          d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"
+                        />
+                        <path
+                          d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                  <p>
+                    Gurugram India
+                  </p>
+                </div>
+                <div
+                  class="flex gap-2 items-center"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
+                    />
+                  </svg>
+                  <p>
+                    Available For New Projects
+                  </p>
+                </div>
+                <div
+                  class="flex gap-2 text-[2em] items-center"
+                >
+                  <a
+                    href="#"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 496 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        id="LinkedIn"
+                      >
+                        <g>
+                          <path
+                            d="M18.44,3.06H5.56a2.507,2.507,0,0,0-2.5,2.5V18.44a2.507,2.507,0,0,0,2.5,2.5H18.44a2.5,2.5,0,0,0,2.5-2.5V5.56A2.5,2.5,0,0,0,18.44,3.06Zm1.5,15.38a1.511,1.511,0,0,1-1.5,1.5H5.56a1.511,1.511,0,0,1-1.5-1.5V5.56a1.511,1.511,0,0,1,1.5-1.5H18.44a1.511,1.511,0,0,1,1.5,1.5Z"
+                          />
+                          <g>
+                            <path
+                              d="M6.376,10.748a1,1,0,1,1,2,0v6.5h0a1,1,0,0,1-2,0Z"
+                            />
+                            <circle
+                              cx="7.376"
+                              cy="6.744"
+                              r="1"
+                            />
+                            <path
+                              d="M17.62,13.37v3.88a1,1,0,1,1-2,0V13.37a1.615,1.615,0,1,0-3.23,0v3.88a1,1,0,0,1-2,0v-6.5a1.016,1.016,0,0,1,1-1,.94.94,0,0,1,.84.47,3.609,3.609,0,0,1,5.39,3.15Z"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      role="img"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex-[0.6] flex items-center justify-center h-full"
+              >
+                <img
+                  alt="ss"
+                  class="object-contain w-[50%] h-[50%] max-[600px]:w-full max-[600px]:h-full"
+                  src="/logo.png"
+                />
+              </div>
+            </div>
+          </section>
+        </section>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+          id="about"
+        >
+          <div
+            class="flex flex-col items-center justify-center"
+          >
+            <div
+              class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 m-[5vh]"
+            >
+              <p>
+                About me
+              </p>
+            </div>
+            <div
+              class="flex items-center h-full max-[600px]:flex-col m-[4%] gap-[3rem] max-[600px]:m-[1.5rem]"
+            >
+              <div
+                class="h-full flex-[0.8] justify-items-center"
+              >
+                <img
+                  alt="something went wrong"
+                  class="h-[50%] w-[50%] object-cover"
+                  src="/logo.png"
+                />
+              </div>
+              <div
+                class="flex-[1.2] text-gray-300"
+              >
+                <p
+                  class="mb-4 text-base leading-relaxed"
+                >
+                  I’m Deepanshu, a Software Development Engineer (SDE-2) with 3.5 years of experience building scalable full-stack applications and enterprise solutions. I specialize in React.js, Node.js, and Redux, with a strong background in architecting intuitive dashboards, optimizing system performance, and delivering impactful solutions across Visitor Management and Healthcare domains. At AlertEnterprise, I’ve engineered mission-critical features for Fortune 500 clients like Chevron, VOLVO, BOFA, and SRP—driving measurable improvements in efficiency, compliance, and customer satisfaction. Beyond my professional work, I enjoy developing custom React component libraries and full-stack projects that push my problem-solving and product design skills further. My goal is to craft solutions that balance technical excellence with real business impact.
+                </p>
+                <p
+                  class="mb-4 text-base leading-relaxed"
+                >
+                  I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
+                </p>
+                <p
+                  class="mb-4 text-base leading-relaxed"
+                >
+                  Finally, some quick bits about me.
+                </p>
+                <br />
+                <p
+                  class="text-lg font-semibold text-white mb-4"
+                >
+                  Finally, some quick bits about me.
+                </p>
+                <ul
+                  class="list-disc pl-5 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-base"
+                >
+                  <li
+                    class="text-gray-400"
+                  >
+                    B.E. in Computer Engineering
+                  </li>
+                  <li
+                    class="text-gray-400"
+                  >
+                    Avid learner
+                  </li>
+                  <li
+                    class="text-gray-400"
+                  >
+                    Full time freelancer
+                  </li>
+                  <li
+                    class="text-gray-400"
+                  >
+                    Aspiring indie hacker
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+          id="skills"
+        >
+          <div
+            class="flex flex-col justify-center items-center p-2"
+          >
+            <div
+              class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 m-[5vh]"
+            >
+              <p>
+                Skills
+              </p>
+            </div>
+            <p
+              class="m-3 text-center"
+            >
+              The skills, tools and technologies I am really good at:
+            </p>
+            <br />
+            <div
+              class="flex justify-between gap-10 flex-wrap	m-[5%]"
+            >
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="mongo"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/mongo.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="node"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/node.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="tailwind"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/tailwind.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="PostgresSQL"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/PostgresSQL.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="react"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/react.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="git"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/git.png"
+                />
+              </div>
+              <div
+                class="flex-1 justify-items-center"
+              >
+                <img
+                  alt="js"
+                  class="w-20 h-20 object-contain rounded-md min-w-20"
+                  src="/js.png"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+          id="experience"
+        >
+          <div
+            class="flex flex-col items-center justify-center mb-[5rem]"
+          >
+            <div
+              class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 mt-[5vh]"
+            >
+              <p>
+                Experience
+              </p>
+            </div>
+            <p
+              class="m-[3%] max-[600px]:m-[2rem] text-center"
+            >
+              Here is a quick summary of my most recent experiences:
+            </p>
+            <div
+              class="flex flex-col gap-[3rem] h-[80%] w-[80%] m-[1rem]"
+            >
+              <section
+                class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+              >
+                <div
+                  class="flex justify-center gap-2 m-5 opacity-[0.8]"
+                >
+                  <div
+                    class="flex-[0.4] justify-items-center"
+                  >
+                    <p
+                      class="text-green-400 font-extrabold text-lg"
+                    >
+                      AlertEnterprise
+                    </p>
+                  </div>
+                  <div
+                    class="flex-[1]"
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      SDE-2 Chandigarh
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Engineered Visitor Management System (VMS) enhancements for clients including Chevron, SRP, Alabama, VOLVO, BOFA, and SCE, improving operational efficiency by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          30%
+                        </strong>
+                         and increasing customer satisfaction scores by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          25%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Architected single-screen dashboards for visitor rules and configurations, reducing learning time for clients and partners by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          40%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Implemented visitor check-out using QR codes with geo-fencing, streamlining operations and reducing manual effort by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          50%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Designed and integrated NDA signing workflows for clients like VOLVO, improving compliance rates by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          35%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Led UI and dashboard enhancements for hospitals and corporate clients, improving visitor tracking efficiency by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          30%
+                        </strong>
+                         and reducing support tickets by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          20%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Managed multiple customer go-lives, achieving 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          100% on-time delivery
+                        </strong>
+                         with 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          zero critical issues
+                        </strong>
+                        .
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex-[0.5] justify-items-center"
+                  >
+                    <p
+                      class="text-blue-400"
+                    >
+                      June 2024 – Present
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+              >
+                <div
+                  class="flex justify-center gap-2 m-5 opacity-[0.8]"
+                >
+                  <div
+                    class="flex-[0.4] justify-items-center"
+                  >
+                    <p
+                      class="text-green-400 font-extrabold text-lg"
+                    >
+                      AlertEnterprise
+                    </p>
+                  </div>
+                  <div
+                    class="flex-[1]"
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      SDE-1 Chandigarh
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Developed dynamic translation for invitation forms for international clients like VOLVO, increasing form completion rate by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          20%
+                        </strong>
+                        .
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Resolved production issues and QA blockers, ensuring 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          on-time delivery
+                        </strong>
+                         during critical product demos.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Delivered multiple feature enhancements under tight deadlines, enabling sales teams to achieve demo readiness 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          2 weeks earlier
+                        </strong>
+                         than planned.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Implemented advanced sorting and multi-select search features, increasing data retrieval speed by 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          35%
+                        </strong>
+                        .
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex-[0.5] justify-items-center"
+                  >
+                    <p
+                      class="text-blue-400"
+                    >
+                      July 2022 – June 2024
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section
+                class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+              >
+                <div
+                  class="flex justify-center gap-2 m-5 opacity-[0.8]"
+                >
+                  <div
+                    class="flex-[0.4] justify-items-center"
+                  >
+                    <p
+                      class="text-green-400 font-extrabold text-lg"
+                    >
+                      PackBagBuddy
+                    </p>
+                  </div>
+                  <div
+                    class="flex-[1]"
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      Intern Remote
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Engineered a tour booking website using 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          HTML
+                        </strong>
+                        , 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          CSS
+                        </strong>
+                        , and 
+                        <strong
+                          class="font-extrabold"
+                        >
+                          JavaScript
+                        </strong>
+                        .
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex-[0.5] justify-items-center"
+                  >
+                    <p
+                      class="text-blue-400"
+                    >
+                      June 2021 – August 2021
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+          id="project"
+        >
+          <div
+            class="flex flex-col justify-center items-center gap-[2rem] mb-[6%]"
+          >
+            <div
+              class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 mt-[5vh]"
+            >
+              <p>
+                Projects
+              </p>
+            </div>
+            <p>
+              Some of the noteworthy projects I have built:
+            </p>
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+              >
+                <div
+                  class="justify-items-center flex-[1] w-full content-center"
+                >
+                  <img
+                    alt="something went wrong"
+                    class="object-fit"
+                    role="test1"
+                    src="/logo.png"
+                  />
+                </div>
+                <div
+                  class="flex flex-col flex-[1] w-full gap-4"
+                >
+                  <div
+                    class=""
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      E-commerce Website
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Delivered a full-stack e-commerce platform, enabling users to manage products, roles, and place orders.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Implemented JWT-based authentication for secure login and token validation.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Built CRUD operations and integrated cart/checkout features with Razorpay for online payments.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Enhanced UI/UX for product management and checkout, improving user experience.
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex gap-3 flex-wrap m-3"
+                  >
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        Node.js
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        React.js
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        Redux
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        MVC
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        PostgreSQL
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+              >
+                <div
+                  class="justify-items-center flex-[1] w-full content-center"
+                >
+                  <img
+                    alt="something went wrong"
+                    class="object-fit"
+                    role="test1"
+                    src="/logo.png"
+                  />
+                </div>
+                <div
+                  class="flex flex-col flex-[1] w-full gap-4"
+                >
+                  <div
+                    class=""
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      BookStore Website
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Developed a dynamic CRUD-based bookstore using MVC architecture.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Implemented server-side rendering with dynamic routes for book details and inventory management.
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex gap-3 flex-wrap m-3"
+                  >
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        Node.js
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        HTML
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        CSS
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        MongoDB
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+              >
+                <div
+                  class="justify-items-center flex-[1] w-full content-center"
+                >
+                  <img
+                    alt="something went wrong"
+                    class="object-fit"
+                    role="test1"
+                    src="/logo.png"
+                  />
+                </div>
+                <div
+                  class="flex flex-col flex-[1] w-full gap-4"
+                >
+                  <div
+                    class=""
+                  >
+                    <h2
+                      class="font-bold"
+                    >
+                      React Components Custom Library
+                    </h2>
+                    <ul
+                      class="list-disc pl-5 text-white"
+                    >
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Built a configurable dropdown component supporting static or remote data sources.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Developed a dynamic accordion component that loads content on expansion.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Created a reusable button component supporting custom classes and events.
+                      </li>
+                      <li
+                        class="m-2 p-1"
+                      >
+                        Designed a search bar and custom outlet-like component for dynamic content rendering and modularity.
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    class="flex gap-3 flex-wrap m-3"
+                  >
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        React.js
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        HTML
+                      </p>
+                    </div>
+                    <div
+                      class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                    >
+                      <p>
+                        CSS
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section
+          class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+          id="contract"
+        >
+          <div
+            class="flex flex-col justify-center items-center m-[2%] gap-4 min-h-[60vh] max-[600px]:p-2"
+          >
+            <div
+              class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+            >
+              <p>
+                Get in touch
+              </p>
+            </div>
+            <p
+              class="w-[40%] max-[600px]:w-full text-center m-4"
+            >
+              What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.
+            </p>
+            <div
+              class="flex text-xl items-center gap-3 max-[600px]:text-lg"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  id="Mail"
+                >
+                  <path
+                    d="M19.435,4.065H4.565a2.5,2.5,0,0,0-2.5,2.5v10.87a2.5,2.5,0,0,0,2.5,2.5h14.87a2.5,2.5,0,0,0,2.5-2.5V6.565A2.5,2.5,0,0,0,19.435,4.065Zm-14.87,1h14.87a1.489,1.489,0,0,1,1.49,1.39c-2.47,1.32-4.95,2.63-7.43,3.95a6.172,6.172,0,0,1-1.06.53,2.083,2.083,0,0,1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26-1.14-.6-2.3-1.21-3.44-1.82A1.491,1.491,0,0,1,4.565,5.065Zm16.37,12.37a1.5,1.5,0,0,1-1.5,1.5H4.565a1.5,1.5,0,0,1-1.5-1.5V7.6c2.36,1.24,4.71,2.5,7.07,3.75a5.622,5.622,0,0,0,1.35.6,2.872,2.872,0,0,0,2-.41c1.45-.76,2.89-1.53,4.34-2.29,1.04-.56,2.07-1.1,3.11-1.65Z"
+                  />
+                </g>
+              </svg>
+              <h1>
+                Deepanshuhead200@gmail.com
+              </h1>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+                />
+              </svg>
+            </div>
+            <div
+              class="flex text-xl items-center gap-3 max-[600px]:text-lg"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"
+                />
+              </svg>
+              <h1>
+                9914938953
+              </h1>
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+                />
+              </svg>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="App min-h-screen text-gray-300"
+    >
+      <nav
+        class="bg-gray-950 text-gray-100 border-b border-gray-800 sticky top-0 z-10"
+      >
+        <div
+          class="flex min-h-[10vh] items-center"
+        >
+          <div
+            class="flex-[0.8] ml-[8%]"
+          >
+            <a
+              href="#intro"
+            >
+              <p>
+                Welcome
+              </p>
+            </a>
+          </div>
+          <div
+            class="flex-[1.2] flex justify-evenly"
+          >
+            <div>
+              <a
+                href="#about"
+              >
+                <p>
+                  About
+                </p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#skills"
+              >
+                <p>
+                  Skills
+                </p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#experience"
+              >
+                <p>
+                  Experience
+                </p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#project"
+              >
+                <p>
+                  Projects
+                </p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#contract"
+              >
+                <p>
+                  Contact
+                </p>
+              </a>
+            </div>
+            <div>
+              <a
+                href="#undefined"
+              >
+                <p>
+                  Download CV
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+        id="intro"
+      >
+        <section>
+          <div
+            class="flex h-[90vh] items-center justify-between items-center justify-center"
+          >
+            <div
+              class="flex-[1.2] whitespace-normal flex flex-col gap-5 ml-[10%]"
+            >
+              <div>
+                <h1
+                  class="text-[2rem] leading-none"
+                >
+                  Hi I am 
+                  Deepanshu
+                  .
+                   
+                  <svg
+                    class="inline-block align-middle text-yellow-400"
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 256 256"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M184.63,23.14a12,12,0,0,1,15-8A72.34,72.34,0,0,1,228.4,32a12,12,0,0,1-16.58,17.35,48.31,48.31,0,0,0-19.2-11.2A12,12,0,0,1,184.63,23.14ZM232.85,167.8A92,92,0,0,1,64.31,190l-40-69.32A32,32,0,0,1,36,77a31.72,31.72,0,0,1,7.54-3.14A32,32,0,0,1,88.65,32.45a32,32,0,0,1,53,3.55l14.53,25.17A32,32,0,0,1,206.35,68l17.31,30A91.38,91.38,0,0,1,232.85,167.8Zm-30-57.81L185.57,80a8,8,0,0,0-13.86,8h0l6.68,11.57a12,12,0,0,1-3.18,15.59,28,28,0,0,0-6.41,38.1,12,12,0,1,1-19.86,13.46,52.05,52.05,0,0,1,3.9-63.4L120.9,48A8,8,0,0,0,107,56l24.25,42a12,12,0,1,1-20.78,12L79.33,56a8,8,0,0,0-13.85,8L99,122a12,12,0,0,1-20.78,12L58.93,100.67a8,8,0,1,0-13.85,8L85.1,178a68,68,0,0,0,117.78-68ZM50.46,198a12,12,0,1,0-20.78,12,132.79,132.79,0,0,0,20,26.38,12,12,0,1,0,17.17-16.76A109.2,109.2,0,0,1,50.46,198Z"
+                    />
+                  </svg>
+                </h1>
+                <br />
+                <p>
+                  I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g
+                    id="Location_On"
+                  >
+                    <g>
+                      <path
+                        d="M12,21.933a1.715,1.715,0,0,1-1.384-.691L5.555,14.5a7.894,7.894,0,1,1,12.885-.009L13.385,21.24A1.717,1.717,0,0,1,12,21.933ZM11.992,3.066A6.81,6.81,0,0,0,7.414,4.815a6.891,6.891,0,0,0-1.05,9.1l5.051,6.727a.725.725,0,0,0,.584.292h0a.732.732,0,0,0,.586-.292l5.044-6.734A6.874,6.874,0,0,0,12.81,3.113,7.277,7.277,0,0,0,11.992,3.066Z"
+                      />
+                      <path
+                        d="M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                <p>
+                  Gurugram India
+                </p>
+              </div>
+              <div
+                class="flex gap-2 items-center"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
+                  />
+                </svg>
+                <p>
+                  Available For New Projects
+                </p>
+              </div>
+              <div
+                class="flex gap-2 text-[2em] items-center"
+              >
+                <a
+                  href="#"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 496 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="LinkedIn"
+                    >
+                      <g>
+                        <path
+                          d="M18.44,3.06H5.56a2.507,2.507,0,0,0-2.5,2.5V18.44a2.507,2.507,0,0,0,2.5,2.5H18.44a2.5,2.5,0,0,0,2.5-2.5V5.56A2.5,2.5,0,0,0,18.44,3.06Zm1.5,15.38a1.511,1.511,0,0,1-1.5,1.5H5.56a1.511,1.511,0,0,1-1.5-1.5V5.56a1.511,1.511,0,0,1,1.5-1.5H18.44a1.511,1.511,0,0,1,1.5,1.5Z"
+                        />
+                        <g>
+                          <path
+                            d="M6.376,10.748a1,1,0,1,1,2,0v6.5h0a1,1,0,0,1-2,0Z"
+                          />
+                          <circle
+                            cx="7.376"
+                            cy="6.744"
+                            r="1"
+                          />
+                          <path
+                            d="M17.62,13.37v3.88a1,1,0,1,1-2,0V13.37a1.615,1.615,0,1,0-3.23,0v3.88a1,1,0,0,1-2,0v-6.5a1.016,1.016,0,0,1,1-1,.94.94,0,0,1,.84.47,3.609,3.609,0,0,1,5.39,3.15Z"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    role="img"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              class="flex-[0.6] flex items-center justify-center h-full"
+            >
+              <img
+                alt="ss"
+                class="object-contain w-[50%] h-[50%] max-[600px]:w-full max-[600px]:h-full"
+                src="/logo.png"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+        id="about"
+      >
+        <div
+          class="flex flex-col items-center justify-center"
+        >
+          <div
+            class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 m-[5vh]"
+          >
+            <p>
+              About me
+            </p>
+          </div>
+          <div
+            class="flex items-center h-full max-[600px]:flex-col m-[4%] gap-[3rem] max-[600px]:m-[1.5rem]"
+          >
+            <div
+              class="h-full flex-[0.8] justify-items-center"
+            >
+              <img
+                alt="something went wrong"
+                class="h-[50%] w-[50%] object-cover"
+                src="/logo.png"
+              />
+            </div>
+            <div
+              class="flex-[1.2] text-gray-300"
+            >
+              <p
+                class="mb-4 text-base leading-relaxed"
+              >
+                I’m Deepanshu, a Software Development Engineer (SDE-2) with 3.5 years of experience building scalable full-stack applications and enterprise solutions. I specialize in React.js, Node.js, and Redux, with a strong background in architecting intuitive dashboards, optimizing system performance, and delivering impactful solutions across Visitor Management and Healthcare domains. At AlertEnterprise, I’ve engineered mission-critical features for Fortune 500 clients like Chevron, VOLVO, BOFA, and SRP—driving measurable improvements in efficiency, compliance, and customer satisfaction. Beyond my professional work, I enjoy developing custom React component libraries and full-stack projects that push my problem-solving and product design skills further. My goal is to craft solutions that balance technical excellence with real business impact.
+              </p>
+              <p
+                class="mb-4 text-base leading-relaxed"
+              >
+                I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.
+              </p>
+              <p
+                class="mb-4 text-base leading-relaxed"
+              >
+                Finally, some quick bits about me.
+              </p>
+              <br />
+              <p
+                class="text-lg font-semibold text-white mb-4"
+              >
+                Finally, some quick bits about me.
+              </p>
+              <ul
+                class="list-disc pl-5 grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-base"
+              >
+                <li
+                  class="text-gray-400"
+                >
+                  B.E. in Computer Engineering
+                </li>
+                <li
+                  class="text-gray-400"
+                >
+                  Avid learner
+                </li>
+                <li
+                  class="text-gray-400"
+                >
+                  Full time freelancer
+                </li>
+                <li
+                  class="text-gray-400"
+                >
+                  Aspiring indie hacker
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+        id="skills"
+      >
+        <div
+          class="flex flex-col justify-center items-center p-2"
+        >
+          <div
+            class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 m-[5vh]"
+          >
+            <p>
+              Skills
+            </p>
+          </div>
+          <p
+            class="m-3 text-center"
+          >
+            The skills, tools and technologies I am really good at:
+          </p>
+          <br />
+          <div
+            class="flex justify-between gap-10 flex-wrap	m-[5%]"
+          >
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="mongo"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/mongo.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="node"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/node.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="tailwind"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/tailwind.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="PostgresSQL"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/PostgresSQL.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="react"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/react.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="git"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/git.png"
+              />
+            </div>
+            <div
+              class="flex-1 justify-items-center"
+            >
+              <img
+                alt="js"
+                class="w-20 h-20 object-contain rounded-md min-w-20"
+                src="/js.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+        id="experience"
+      >
+        <div
+          class="flex flex-col items-center justify-center mb-[5rem]"
+        >
+          <div
+            class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 mt-[5vh]"
+          >
+            <p>
+              Experience
+            </p>
+          </div>
+          <p
+            class="m-[3%] max-[600px]:m-[2rem] text-center"
+          >
+            Here is a quick summary of my most recent experiences:
+          </p>
+          <div
+            class="flex flex-col gap-[3rem] h-[80%] w-[80%] m-[1rem]"
+          >
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="flex justify-center gap-2 m-5 opacity-[0.8]"
+              >
+                <div
+                  class="flex-[0.4] justify-items-center"
+                >
+                  <p
+                    class="text-green-400 font-extrabold text-lg"
+                  >
+                    AlertEnterprise
+                  </p>
+                </div>
+                <div
+                  class="flex-[1]"
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    SDE-2 Chandigarh
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Engineered Visitor Management System (VMS) enhancements for clients including Chevron, SRP, Alabama, VOLVO, BOFA, and SCE, improving operational efficiency by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        30%
+                      </strong>
+                       and increasing customer satisfaction scores by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        25%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Architected single-screen dashboards for visitor rules and configurations, reducing learning time for clients and partners by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        40%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Implemented visitor check-out using QR codes with geo-fencing, streamlining operations and reducing manual effort by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        50%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Designed and integrated NDA signing workflows for clients like VOLVO, improving compliance rates by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        35%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Led UI and dashboard enhancements for hospitals and corporate clients, improving visitor tracking efficiency by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        30%
+                      </strong>
+                       and reducing support tickets by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        20%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Managed multiple customer go-lives, achieving 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        100% on-time delivery
+                      </strong>
+                       with 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        zero critical issues
+                      </strong>
+                      .
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex-[0.5] justify-items-center"
+                >
+                  <p
+                    class="text-blue-400"
+                  >
+                    June 2024 – Present
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="flex justify-center gap-2 m-5 opacity-[0.8]"
+              >
+                <div
+                  class="flex-[0.4] justify-items-center"
+                >
+                  <p
+                    class="text-green-400 font-extrabold text-lg"
+                  >
+                    AlertEnterprise
+                  </p>
+                </div>
+                <div
+                  class="flex-[1]"
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    SDE-1 Chandigarh
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Developed dynamic translation for invitation forms for international clients like VOLVO, increasing form completion rate by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        20%
+                      </strong>
+                      .
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Resolved production issues and QA blockers, ensuring 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        on-time delivery
+                      </strong>
+                       during critical product demos.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Delivered multiple feature enhancements under tight deadlines, enabling sales teams to achieve demo readiness 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        2 weeks earlier
+                      </strong>
+                       than planned.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Implemented advanced sorting and multi-select search features, increasing data retrieval speed by 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        35%
+                      </strong>
+                      .
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex-[0.5] justify-items-center"
+                >
+                  <p
+                    class="text-blue-400"
+                  >
+                    July 2022 – June 2024
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section
+              class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+            >
+              <div
+                class="flex justify-center gap-2 m-5 opacity-[0.8]"
+              >
+                <div
+                  class="flex-[0.4] justify-items-center"
+                >
+                  <p
+                    class="text-green-400 font-extrabold text-lg"
+                  >
+                    PackBagBuddy
+                  </p>
+                </div>
+                <div
+                  class="flex-[1]"
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    Intern Remote
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Engineered a tour booking website using 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        HTML
+                      </strong>
+                      , 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        CSS
+                      </strong>
+                      , and 
+                      <strong
+                        class="font-extrabold"
+                      >
+                        JavaScript
+                      </strong>
+                      .
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex-[0.5] justify-items-center"
+                >
+                  <p
+                    class="text-blue-400"
+                  >
+                    June 2021 – August 2021
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-950 text-white scroll-mt-20 flex flex-col"
+        id="project"
+      >
+        <div
+          class="flex flex-col justify-center items-center gap-[2rem] mb-[6%]"
+        >
+          <div
+            class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5 mt-[5vh]"
+          >
+            <p>
+              Projects
+            </p>
+          </div>
+          <p>
+            Some of the noteworthy projects I have built:
+          </p>
+          <section
+            class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+          >
+            <div
+              class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+            >
+              <div
+                class="justify-items-center flex-[1] w-full content-center"
+              >
+                <img
+                  alt="something went wrong"
+                  class="object-fit"
+                  role="test1"
+                  src="/logo.png"
+                />
+              </div>
+              <div
+                class="flex flex-col flex-[1] w-full gap-4"
+              >
+                <div
+                  class=""
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    E-commerce Website
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Delivered a full-stack e-commerce platform, enabling users to manage products, roles, and place orders.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Implemented JWT-based authentication for secure login and token validation.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Built CRUD operations and integrated cart/checkout features with Razorpay for online payments.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Enhanced UI/UX for product management and checkout, improving user experience.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex gap-3 flex-wrap m-3"
+                >
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      Node.js
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      React.js
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      Redux
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      MVC
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      PostgreSQL
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+          >
+            <div
+              class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+            >
+              <div
+                class="justify-items-center flex-[1] w-full content-center"
+              >
+                <img
+                  alt="something went wrong"
+                  class="object-fit"
+                  role="test1"
+                  src="/logo.png"
+                />
+              </div>
+              <div
+                class="flex flex-col flex-[1] w-full gap-4"
+              >
+                <div
+                  class=""
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    BookStore Website
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Developed a dynamic CRUD-based bookstore using MVC architecture.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Implemented server-side rendering with dynamic routes for book details and inventory management.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex gap-3 flex-wrap m-3"
+                >
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      Node.js
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      HTML
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      CSS
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      MongoDB
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 rounded-xl custom-shadow flex flex-col"
+          >
+            <div
+              class="w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw] opacity-[0.8]"
+            >
+              <div
+                class="justify-items-center flex-[1] w-full content-center"
+              >
+                <img
+                  alt="something went wrong"
+                  class="object-fit"
+                  role="test1"
+                  src="/logo.png"
+                />
+              </div>
+              <div
+                class="flex flex-col flex-[1] w-full gap-4"
+              >
+                <div
+                  class=""
+                >
+                  <h2
+                    class="font-bold"
+                  >
+                    React Components Custom Library
+                  </h2>
+                  <ul
+                    class="list-disc pl-5 text-white"
+                  >
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Built a configurable dropdown component supporting static or remote data sources.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Developed a dynamic accordion component that loads content on expansion.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Created a reusable button component supporting custom classes and events.
+                    </li>
+                    <li
+                      class="m-2 p-1"
+                    >
+                      Designed a search bar and custom outlet-like component for dynamic content rendering and modularity.
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex gap-3 flex-wrap m-3"
+                >
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      React.js
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      HTML
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+                  >
+                    <p>
+                      CSS
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section
+        class="max-[400px]:text-sm tracking-wide bg-gray-900 text-gray-300 scroll-mt-20 flex flex-col"
+        id="contract"
+      >
+        <div
+          class="flex flex-col justify-center items-center m-[2%] gap-4 min-h-[60vh] max-[600px]:p-2"
+        >
+          <div
+            class="bg-gray-600 p-2 text-sm br rounded-3xl text-sm pl-5 pr-5"
+          >
+            <p>
+              Get in touch
+            </p>
+          </div>
+          <p
+            class="w-[40%] max-[600px]:w-full text-center m-4"
+          >
+            What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.
+          </p>
+          <div
+            class="flex text-xl items-center gap-3 max-[600px]:text-lg"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                id="Mail"
+              >
+                <path
+                  d="M19.435,4.065H4.565a2.5,2.5,0,0,0-2.5,2.5v10.87a2.5,2.5,0,0,0,2.5,2.5h14.87a2.5,2.5,0,0,0,2.5-2.5V6.565A2.5,2.5,0,0,0,19.435,4.065Zm-14.87,1h14.87a1.489,1.489,0,0,1,1.49,1.39c-2.47,1.32-4.95,2.63-7.43,3.95a6.172,6.172,0,0,1-1.06.53,2.083,2.083,0,0,1-1.67-.39c-1.42-.75-2.84-1.51-4.25-2.26-1.14-.6-2.3-1.21-3.44-1.82A1.491,1.491,0,0,1,4.565,5.065Zm16.37,12.37a1.5,1.5,0,0,1-1.5,1.5H4.565a1.5,1.5,0,0,1-1.5-1.5V7.6c2.36,1.24,4.71,2.5,7.07,3.75a5.622,5.622,0,0,0,1.35.6,2.872,2.872,0,0,0,2-.41c1.45-.76,2.89-1.53,4.34-2.29,1.04-.56,2.07-1.1,3.11-1.65Z"
+                />
+              </g>
+            </svg>
+            <h1>
+              Deepanshuhead200@gmail.com
+            </h1>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+              />
+            </svg>
+          </div>
+          <div
+            class="flex text-xl items-center gap-3 max-[600px]:text-lg"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"
+              />
+            </svg>
+            <h1>
+              9914938953
+            </h1>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0V0z"
+                fill="none"
+              />
+              <path
+                d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

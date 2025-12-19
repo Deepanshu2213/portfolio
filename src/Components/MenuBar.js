@@ -28,6 +28,7 @@ const MenuBar = ({ setMenuBar, menuBar }) => {
     <div
       ref={menu}
       className="fixed h-screen w-[45vw] text-white z-50 flex flex-col items-center bg-gray-900 "
+      data-testid="menuBar"
       onClick={(e) => {
         e.stopPropagation();
       }}

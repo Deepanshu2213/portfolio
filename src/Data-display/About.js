@@ -15,10 +15,10 @@ const AboutMe = () => {
 };
 const LeftPanel = () => {
   return (
-    <div className="h-full flex-[0.8] justify-items-center">
+    <div className="h-full w-full flex-[0.8]">
       <img
-        className="h-[50%] w-[50%] object-cover"
-        src="/logo.png"
+        className="h-[100%] w-[100%] object-cover"
+        src="https://miro.medium.com/v2/format:webp/0*hU4zJiyVwWcM0L-w.png"
         alt="something went wrong"
       ></img>
     </div>

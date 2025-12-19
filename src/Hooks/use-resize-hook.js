@@ -1,8 +1,8 @@
-import { ResizeProvider } from "../Context/resize";
-import { useContext } from "react";
+import { ResizeProvider } from '../Context/resize';
+import { useContext } from 'react';
 
-const ResizeContext = () =>{
-    return useContext(ResizeProvider)
+const useResizeContext = () => {
+  return useContext(ResizeProvider);
 };
 
-export default ResizeContext;
+export default useResizeContext;
