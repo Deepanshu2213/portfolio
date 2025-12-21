@@ -4,6 +4,7 @@ import { MdCardTravel } from 'react-icons/md';
 import { IoMdContact } from 'react-icons/io';
 import { FaHome } from 'react-icons/fa';
 import { useEffect, useRef } from 'react';
+import { FaFileDownload } from 'react-icons/fa';
 
 const menu = {
   Home: [<FaHome />, 'intro'],
@@ -12,6 +13,7 @@ const menu = {
   Experience: [<MdCardTravel />, 'experience'],
   Projects: [<GiFilmProjector />, 'project'],
   Contact: [<IoMdContact />, 'contract'],
+  ['CV']: [<FaFileDownload />, 'Deepanshu_resume.pdf', true],
 };
 const MenuBar = ({ setMenuBar, menuBar }) => {
   const menu = useRef();
@@ -45,6 +47,7 @@ const MenuItems = ({ setMenuBar }) => {
         <MenuItem
           icon={menu[key][0]}
           title={key}
+          download={menu[key].length >= 3 && menu[key][2]}
           setMenuBar={setMenuBar}
           id={menu[key][1]}
         />
@@ -53,7 +56,7 @@ const MenuItems = ({ setMenuBar }) => {
   );
 };
 
-const MenuItem = ({ icon, title, setMenuBar, id }) => {
+const MenuItem = ({ icon, title, setMenuBar, id, download }) => {
   return (
     <div
       className="flex m-3 p-3 items-center gap-5 border-b border-gray-800"
@@ -63,10 +66,14 @@ const MenuItem = ({ icon, title, setMenuBar, id }) => {
     >
       <div>
         {' '}
-        <a href={'#' + id}>{icon}</a>
+        <a download={download} href={`${download ? '' : '#'}` + id}>
+          {icon}
+        </a>
       </div>
       <div>
-        <a href={'#' + id}>{title}</a>
+        <a download={download} href={`${download ? '' : '#'}` + id}>
+          {title}
+        </a>
       </div>
     </div>
   );

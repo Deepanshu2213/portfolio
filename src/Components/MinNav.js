@@ -16,7 +16,7 @@ const MinNavigation = ({ className, setMenuBar }) => {
           e.stopPropagation();
         }}
       >
-        <LuMenu className="m-[1.5rem]" />
+        <LuMenu className="m-[1.5rem] cursor-pointer" />
       </div>
       <h1 className="flex-[1.6]">Welcome</h1>
     </div>

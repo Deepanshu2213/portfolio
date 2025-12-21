@@ -6,6 +6,7 @@ import { PiHandWavingBold } from 'react-icons/pi';
 import { FaGithub } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import { introductionData } from '../Data/introductionData';
+import useResizeContext from '../Hooks/use-resize-hook';
 
 const socialIconComponents = {
   FaGithub: FaGithub,
@@ -71,7 +72,7 @@ const RightPanel = ({ className }) => {
       <img
         src="https://media.licdn.com/dms/image/v2/C4E03AQFVWc59eUDtmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1635621669292?e=1767830400&v=beta&t=HIK0FuK5DeQAW0lRal7wE04MLGEpBFJN5xHvwO69GCo"
         alt="ss"
-        className="object-cover rounded-lg w-[50%] h-[40%] max-[600px]:w-full max-[600px]:h-full opacity-[0.6]"
+        className="object-cover rounded-lg w-[50%] h-[40%] max-[600px]:w-[70%] max-[600px]:h-[30%]  opacity-[0.6]"
       />
     </div>
   );

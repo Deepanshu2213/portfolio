@@ -24,11 +24,14 @@ const Contact = () => {
 };
 
 const Header = ({ icon, detail }) => {
+  const copy = () => {
+    navigator.clipboard.writeText(detail);
+  };
   return (
     <div className="flex text-xl items-center gap-3 max-[600px]:text-lg">
       {icon}
       <h1>{detail}</h1>
-      <MdOutlineContentCopy />
+      <MdOutlineContentCopy onClick={copy} className="cursor-pointer" />
     </div>
   );
 };
