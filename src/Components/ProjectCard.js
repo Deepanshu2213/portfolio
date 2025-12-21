@@ -44,4 +44,9 @@ const TechnologiesTag = ({ technologies }) => {
   return <div className="flex gap-3 flex-wrap m-3">{tech}</div>;
 };
 
-export default wrappedCmp(ProjectCard, true, 'rounded-xl custom-shadow', 80);
+export default wrappedCmp(
+  ProjectCard,
+  true,
+  'rounded-xl custom-shadow',
+  'bg-opacity-90'
+);
