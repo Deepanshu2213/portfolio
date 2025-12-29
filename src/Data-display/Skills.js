@@ -2,7 +2,7 @@ import Tag from '../Components/Tag';
 import wrappedCmp from '../util/Container-wrapper';
 const skill = () => {
   let images = [
-    'tech',
+    'typescript',
     'js',
     'react',
     'tailwind',
