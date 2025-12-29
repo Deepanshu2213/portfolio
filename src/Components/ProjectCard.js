@@ -19,7 +19,7 @@ const LeftPanel = ({ data }) => {
   return (
     <div className="justify-items-center flex-[1] w-full content-center">
       <img
-        className="object-fit w-full h-full rounded-lg"
+        className="object-cover w-full border border-3 border-gray-700 rounded-lg"
         src={data.imgSrc}
         alt="Product image"
         loading="lazy"
@@ -33,7 +33,7 @@ const RightPanel = ({ data }) => {
   const { title, technologies, link, features } = data;
   return (
     <div className="flex flex-col flex-[1] w-full gap-4">
-      {ContentContainer(title, features, '')}
+      {ContentContainer(title, features, '', link)}
       <TechnologiesTag technologies={technologies} />
     </div>
   );

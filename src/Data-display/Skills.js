@@ -2,13 +2,16 @@ import Tag from '../Components/Tag';
 import wrappedCmp from '../util/Container-wrapper';
 const skill = () => {
   let images = [
-    'mongo',
-    'node',
-    'tailwind',
-    'PostgresSQL',
-    'react',
-    'git',
+    'tech',
     'js',
+    'react',
+    'tailwind',
+    'node',
+    'express',
+    'mongo',
+    'PostgresSQL',
+    'redux',
+    'git',
   ];
   const holder = images.map((name) => {
     return (

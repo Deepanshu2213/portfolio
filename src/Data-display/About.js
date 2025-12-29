@@ -5,8 +5,8 @@ import { aboutMeContent } from '../Data/aboutData';
 const AboutMe = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <Tag className="m-[5vh]" title={'About me'} />
-      <div className="flex items-center h-full max-[600px]:flex-col m-[4%] gap-[3rem] max-[600px]:m-[1.5rem]">
+      <Tag className="mt-[5vh]" title={'About me'} />
+      <div className="flex items-center h-full max-[600px]:flex-col mx-[4%] my-[2%] gap-[3rem] max-[600px]:m-[1.5rem]">
         <LeftPanel />
         <RightPanel />
       </div>

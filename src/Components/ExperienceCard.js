@@ -7,20 +7,22 @@ const ExperienceCard = ({ data, className }) => {
     'flex justify-center gap-2 m-5 opacity-[0.8]',
     className
   );
-  const { title, company, location, duration, responsibilities } = data;
+  const { title, company, location, duration, responsibilities, link } = data;
   if (width <= 800) {
     return MobileContainer(
       title,
       company,
       location,
       duration,
-      responsibilities
+      responsibilities,
+      link
     );
   }
   return (
     <div className={clss}>
-      <div className="flex-[0.4] justify-items-center">
+      <div className="flex-[0.5] justify-items-center">
         <p className="text-green-400 font-extrabold text-lg">{company}</p>
+        {link && <a href={link}>Project link</a>}
       </div>
       {ContentContainer(title + ' ' + location, responsibilities)}
       <div className="flex-[0.5] justify-items-center">
@@ -34,7 +36,8 @@ const MobileContainer = (
   company,
   location,
   duration,
-  responsibilities
+  responsibilities,
+  link
 ) => {
   return (
     <div className={'flex flex-col gap-5 m-5'}>
@@ -48,10 +51,27 @@ const MobileContainer = (
     </div>
   );
 };
-export const ContentContainer = (heading, info, cls = 'flex-[1]') => {
+export const ContentContainer = (
+  heading,
+  info,
+  cls = 'flex-[1]',
+  link = ''
+) => {
   return (
     <div className={cls}>
-      <h2 className="font-bold">{heading}</h2>
+      <div className="flex justify-between">
+        <h2 className="font-bold">{heading}</h2>
+        {link && (
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold opacity-[1.5] border-b"
+          >
+            ( Project link )
+          </a>
+        )}
+      </div>
       {bulletPoints(info)}
     </div>
   );
