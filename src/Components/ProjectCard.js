@@ -5,7 +5,7 @@ import classNames from 'classnames';
 const ProjectCard = ({ data, className }) => {
   const cls = classNames(
     'w-[80vw] flex m-[2rem] gap-4 max-[800px]:flex-col max-[800px]:w-[70vw]',
-    className
+    className,
   );
   return (
     <div className={cls}>
@@ -21,9 +21,9 @@ const LeftPanel = ({ data }) => {
       <img
         className="object-cover w-full border border-3 border-gray-700 rounded-lg"
         src={data.imgSrc}
-        alt="Product image"
+        alt="About Product"
         loading="lazy"
-        role="test1"
+        // role="test1"
       ></img>
     </div>
   );
@@ -48,5 +48,5 @@ export default wrappedCmp(
   ProjectCard,
   true,
   'rounded-xl custom-shadow',
-  'bg-opacity-90'
+  'bg-opacity-90',
 );

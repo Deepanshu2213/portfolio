@@ -13,7 +13,7 @@ const menu = {
   Experience: [<MdCardTravel />, 'experience'],
   Projects: [<GiFilmProjector />, 'project'],
   Contact: [<IoMdContact />, 'contract'],
-  ['CV']: [<FaFileDownload />, 'Deepanshu_resume.pdf', true],
+  CV: [<FaFileDownload />, 'Deepanshu_resume.pdf', true],
 };
 const MenuBar = ({ setMenuBar, menuBar }) => {
   const menu = useRef();

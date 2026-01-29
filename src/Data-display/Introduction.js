@@ -6,7 +6,6 @@ import { PiHandWavingBold } from 'react-icons/pi';
 import { FaGithub } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 import { introductionData } from '../Data/introductionData';
-import useResizeContext from '../Hooks/use-resize-hook';
 
 const socialIconComponents = {
   FaGithub: FaGithub,
