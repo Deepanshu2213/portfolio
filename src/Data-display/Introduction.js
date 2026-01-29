@@ -70,9 +70,9 @@ const RightPanel = ({ className }) => {
   return (
     <div className={mainClass}>
       <img
-        src="https://media.licdn.com/dms/image/v2/C4E03AQFVWc59eUDtmw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1635621669292?e=1767830400&v=beta&t=HIK0FuK5DeQAW0lRal7wE04MLGEpBFJN5xHvwO69GCo"
-        alt="ss"
-        className="object-cover rounded-lg w-[50%] h-[40%] max-[600px]:w-[70%] max-[600px]:h-[30%]  opacity-[0.6]"
+        src="https://media.licdn.com/dms/image/v2/D5603AQE3y8sGZBo7sg/profile-displayphoto-crop_800_800/B56Zt5VM5VG4AI-/0/1767267160448?e=1771459200&v=beta&t=sJJ4XdG0zpyLUcNt6fdHSh0EL2xQdCQfVPMGShoRF6w"
+        alt="profile pic"
+        className="object-cover rounded-lg w-[50%] h-[40%] max-[600px]:w-[70%] max-[600px]:h-[30%]  opacity-[0.8]"
       />
     </div>
   );
