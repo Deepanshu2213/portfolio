@@ -72,7 +72,7 @@ const MenuItem = ({ icon, title, setMenuBar, id, download }) => {
         {icon}
       </div>
       <div className="text-lg font-medium text-gray-300 group-hover:text-white transition-colors w-full">
-        <a download={download} href={`${download ? '' : '#'}` + id} className="block w-full">
+        <a download={download} href={`${download ? '' : '#'}` + id} className="block w-full h-full">
           {title}
         </a>
       </div>

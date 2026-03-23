@@ -36,7 +36,7 @@ const Navigation = () => {
           <MenuItems name="Contact" id="contract"></MenuItems>
           <MenuItems
             name="Download CV"
-            fullLink="/Deepanshu_resume.pdf"
+            fullLink="/Deepanshu_resume_10_03_1001.pdf"
             download={true}
           ></MenuItems>
         </div>
