@@ -10,7 +10,7 @@ import Contact from './Data-display/Contact';
 function App() {
   return (
     <Resize>
-      <div className="App min-h-screen text-gray-300">
+      <div className="App min-h-screen text-gray-300 bg-animated-gradient selection:bg-emerald-500/30 selection:text-emerald-200">
         <Navigation id="nav" />
         <Introduction id="intro" />
         <AboutMe id="about" />

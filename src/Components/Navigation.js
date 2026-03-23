@@ -9,8 +9,8 @@ const Navigation = () => {
   const [menuBar, setMenuBar] = useState(false);
   const { width } = useResizeContext();
   const clss = classNames(
-    'bg-gray-950 text-gray-100 border-b border-gray-800',
-    'sticky top-0 z-10'
+    'glass border-b border-white/10 text-gray-100',
+    'sticky top-0 z-50 transition-all duration-300'
   );
   if (width < 800) {
     return (

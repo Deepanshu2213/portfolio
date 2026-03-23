@@ -1,93 +1,47 @@
 import classNames from 'classnames';
 import wrappedCmp from '../util/Container-wrapper';
-import ResizeContext from '../Hooks/use-resize-hook';
+
 const ExperienceCard = ({ data, className }) => {
-  const { width } = ResizeContext();
+  const { title, company, location, duration, responsibilities, link } = data;
   const clss = classNames(
-    'flex justify-center gap-2 m-5 opacity-[0.8]',
+    'glass-card p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-8 group overflow-hidden w-full transition-all duration-300',
     className
   );
-  const { title, company, location, duration, responsibilities, link } = data;
-  if (width <= 800) {
-    return MobileContainer(
-      title,
-      company,
-      location,
-      duration,
-      responsibilities,
-      link
-    );
-  }
+
   return (
     <div className={clss}>
-      <div className="flex-[0.5] justify-items-center">
-        <p className="text-green-400 font-extrabold text-lg">{company}</p>
-        {link && <a href={link}>Project link</a>}
-      </div>
-      {ContentContainer(title + ' ' + location, responsibilities)}
-      <div className="flex-[0.5] justify-items-center">
-        <p className="text-blue-400">{duration}</p>
-      </div>
-    </div>
-  );
-};
-const MobileContainer = (
-  title,
-  company,
-  location,
-  duration,
-  responsibilities,
-  link
-) => {
-  return (
-    <div className={'flex flex-col gap-5 m-5'}>
-      <div className="flex-[0.4]">
-        <p className="text-green-400 text-lg text-center">{company}</p>
-      </div>
-      <div className="flex-[0.5]">
-        <p className="text-blue-400 font-bold text-center">{duration}</p>
-      </div>
-      {ContentContainer(title + ' ' + location, responsibilities)}
-    </div>
-  );
-};
-export const ContentContainer = (
-  heading,
-  info,
-  cls = 'flex-[1]',
-  link = ''
-) => {
-  return (
-    <div className={cls}>
-      <div className="flex justify-between">
-        <h2 className="font-bold">{heading}</h2>
+      {/* Left Column: Company & Location */}
+      <div className="flex-[0.3] md:border-r border-white/10 md:pr-6 flex flex-col items-start min-w-[200px]">
+        <p className="text-emerald-400 font-bold text-xl md:text-2xl tracking-tight mb-2 group-hover:text-cyan-400 transition-colors duration-300">{company}</p>
+        <p className="text-gray-400 text-sm mb-4">{location}</p>
         {link && (
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-bold opacity-[1.5] border-b"
-          >
-            ( Project link )
+          <a href={link} target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-emerald-400 text-sm transition-colors duration-300 flex items-center gap-2 mt-auto">
+            <span className="w-4 h-px bg-cyan-400 group-hover:bg-emerald-400 transition-colors"></span> View Project
           </a>
         )}
       </div>
-      {bulletPoints(info)}
+
+      {/* Middle Column: Role & Responsibilities */}
+      <div className="flex-[0.5] flex flex-col gap-4">
+        <h3 className="font-bold text-lg md:text-xl text-white tracking-wide">{title}</h3>
+        <ul className="list-none space-y-3 text-gray-300/90 text-sm md:text-base leading-relaxed">
+          {responsibilities.map((item, index) => (
+            <li key={index} className="flex gap-3 items-start hover:text-white transition-colors duration-300">
+              <span className="text-emerald-500 mt-1 flex-shrink-0 text-lg leading-none">▹</span>
+              <span dangerouslySetInnerHTML={{ __html: item }} />
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Right Column: Duration */}
+      <div className="flex-[0.2] md:text-right md:justify-end flex items-start">
+        <span className="text-emerald-300/80 font-medium px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs md:text-sm whitespace-nowrap shadow-inner">
+          {duration}
+        </span>
+      </div>
     </div>
   );
 };
 
-const bulletPoints = (data) => {
-  return (
-    <ul className="list-disc pl-5 text-white">
-      {data.map((item, index) => (
-        <li
-          key={index}
-          className="m-2 p-1"
-          dangerouslySetInnerHTML={{ __html: item }}
-        />
-      ))}
-    </ul>
-  );
-};
-export default wrappedCmp(ExperienceCard, false, 'rounded-xl custom-shadow');
+export default wrappedCmp(ExperienceCard);

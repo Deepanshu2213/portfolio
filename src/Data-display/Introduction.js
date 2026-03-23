@@ -16,37 +16,40 @@ const socialIconComponents = {
 const Introduction = () => {
   return (
     <section>
-      <div className="flex h-[90vh] items-center justify-between items-center justify-center">
-        <LeftPanel className="flex-[1.2] whitespace-normal flex flex-col gap-5 ml-[10%]" />
-        <RightPanel className="flex-[0.6] flex items-center justify-center h-full" />
+      <div className="flex flex-col md:flex-row min-h-[90vh] items-center justify-center md:justify-between py-24 md:py-0 overflow-hidden">
+        <LeftPanel className="flex-[1.2] whitespace-normal flex flex-col gap-5 px-6 md:px-0 md:ml-[10%] w-full order-2 md:order-1 mt-12 md:mt-0" />
+        <RightPanel className="flex-[0.6] flex items-center justify-center w-full md:h-full order-1 md:order-2" />
       </div>
     </section>
   );
 };
 const LeftPanel = ({ className }) => {
-  const mainClass = classNames(className);
+  const mainClass = classNames(className, "z-10");
   return (
     <div className={mainClass}>
       <div>
-        <h1 className="text-[2rem] leading-none">
-          Hi I am {introductionData.name}.{' '}
+        <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 tracking-tight">
+          Hi I am <br/> {introductionData.name}.{' '}
           <PiHandWavingBold
-            className="inline-block align-middle text-yellow-400"
-            size="1em"
+            className="inline-block align-middle text-yellow-400 animate-bounce"
+            size="0.8em"
           />
         </h1>
-        <br />
-        <p>{introductionData.description}</p>
+        <p className="text-lg md:text-xl text-gray-300/80 max-w-2xl leading-relaxed mb-8">
+          {introductionData.description}
+        </p>
       </div>
-      <div className="flex gap-2 items-center">
-        <CiLocationOn />
-        <p>{introductionData.location}</p>
+      <div className="flex flex-col gap-4 text-gray-200">
+        <div className="flex gap-3 items-center glass px-4 py-2 rounded-full w-fit hover:bg-white/10 transition-colors duration-300">
+          <CiLocationOn className="text-emerald-400 text-xl" />
+          <p className="font-medium">{introductionData.location}</p>
+        </div>
+        <div className="flex gap-3 items-center glass px-4 py-2 rounded-full w-fit hover:bg-white/10 transition-colors duration-300">
+          <GoDotFill className="text-emerald-400 text-xl animate-pulse" />
+          <p className="font-medium">{introductionData.availability}</p>
+        </div>
       </div>
-      <div className="flex gap-2 items-center">
-        <GoDotFill />
-        <p>{introductionData.availability}</p>
-      </div>
-      <div className="flex gap-2 text-[2em] items-center">
+      <div className="flex gap-6 text-3xl mt-8 items-center">
         {introductionData.socialLinks.map((link) => {
           const IconComponent = socialIconComponents[link.icon];
           return IconComponent ? (
@@ -55,8 +58,9 @@ const LeftPanel = ({ className }) => {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
+              className="text-gray-400 hover:text-emerald-400 transform hover:scale-110 hover:-translate-y-1 transition-all duration-300"
             >
-              <IconComponent size="1em" />
+              <IconComponent />
             </a>
           ) : null;
         })}
@@ -65,14 +69,18 @@ const LeftPanel = ({ className }) => {
   );
 };
 const RightPanel = ({ className }) => {
-  const mainClass = classNames(className);
+  const mainClass = classNames(className, "relative z-10");
   return (
     <div className={mainClass}>
-      <img
-        src="https://media.licdn.com/dms/image/v2/D5603AQE3y8sGZBo7sg/profile-displayphoto-crop_800_800/B56Zt5VM5VG4AI-/0/1767267160448?e=1771459200&v=beta&t=sJJ4XdG0zpyLUcNt6fdHSh0EL2xQdCQfVPMGShoRF6w"
-        alt="profile pic"
-        className="object-cover rounded-lg w-[50%] h-[40%] max-[600px]:w-[70%] max-[600px]:h-[30%]  opacity-[0.8]"
-      />
+      <div className="relative animate-float">
+        {/* Glow effect behind image */}
+        <div className="absolute -inset-4 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
+        <img
+          src="/ff.jpeg"
+          alt="profile pic"
+          className="relative object-cover rounded-2xl w-[280px] h-[350px] md:w-[350px] md:h-[450px] shadow-2xl border-2 border-white/10"
+        />
+      </div>
     </div>
   );
 };

@@ -29,12 +29,15 @@ const MenuBar = ({ setMenuBar, menuBar }) => {
   return (
     <div
       ref={menu}
-      className="fixed h-screen w-[45vw] text-white z-50 flex flex-col items-center bg-gray-900 "
+      className="fixed h-screen w-[75vw] sm:w-[50vw] text-white z-[60] flex flex-col items-start bg-gray-950/95 backdrop-blur-xl border-r border-white/10 shadow-2xl top-0 left-0 pt-8 transition-transform duration-300"
       data-testid="menuBar"
       onClick={(e) => {
         e.stopPropagation();
       }}
     >
+      <div className="px-8 pb-6 border-b border-white/10 w-full mb-4">
+        <h2 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 tracking-tight">Portfolio</h2>
+      </div>
       <MenuItems setMenuBar={setMenuBar} />
     </div>
   );
@@ -42,9 +45,10 @@ const MenuBar = ({ setMenuBar, menuBar }) => {
 
 const MenuItems = ({ setMenuBar }) => {
   return (
-    <div className="w-full text-center gap-2 flex flex-col mt-[1rem]">
+    <div className="w-full text-left flex flex-col px-4 gap-2">
       {Object.keys(menu).map((key) => (
         <MenuItem
+          key={key}
           icon={menu[key][0]}
           title={key}
           download={menu[key].length >= 3 && menu[key][2]}
@@ -59,19 +63,16 @@ const MenuItems = ({ setMenuBar }) => {
 const MenuItem = ({ icon, title, setMenuBar, id, download }) => {
   return (
     <div
-      className="flex m-3 p-3 items-center gap-5 border-b border-gray-800"
+      className="flex w-full px-4 py-3 items-center gap-4 border-b border-white/5 hover:bg-white/5 active:bg-white/10 rounded-xl transition-all duration-300 cursor-pointer group"
       onClick={() => {
         setMenuBar(false);
       }}
     >
-      <div>
-        {' '}
-        <a download={download} href={`${download ? '' : '#'}` + id}>
-          {icon}
-        </a>
+      <div className="text-2xl text-gray-400 group-hover:text-emerald-400 transition-colors pointer-events-none">
+        {icon}
       </div>
-      <div>
-        <a download={download} href={`${download ? '' : '#'}` + id}>
+      <div className="text-lg font-medium text-gray-300 group-hover:text-white transition-colors w-full">
+        <a download={download} href={`${download ? '' : '#'}` + id} className="block w-full">
           {title}
         </a>
       </div>
